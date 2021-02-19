@@ -47,3 +47,41 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+body {
+    background-color: #550a8a;
+    font-family: 'Inconsolata', monospace;
+  }
+  h1 {
+    color: white;
+    font-size: 50px;
+  }
+  header {
+    width: 100%;
+    margin: 1%;
+  }
+  .links1 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 2%;
+  }
+  .links1 a {
+    background-color: black;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 35%;
+    }
+  .links1 a:hover {
+    background-color: red;
+  } 
+  .me {
+    text-align: center;
+    font-size: 25px;
+  }
+  #section {
+    display: flex;
+    flex-direction: row;
+  }
+  
