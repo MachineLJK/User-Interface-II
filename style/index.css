@@ -120,6 +120,22 @@ footer {
 }
 @media (max-width:800px) {
 
+.h1 {
+  align-items: center;
+}
+#section {
+  align-items: center;
+  flex-direction: column;
+}
+.me {
+  align-items: center;
+}
+.links1 {
+  align-items: center;
+}
+.gengar {
+  align-items: center;
+}
 }
 @media (max-width:500px) {
   
